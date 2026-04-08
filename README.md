@@ -150,6 +150,18 @@ revo2_description/
 └── README.md
 ```
 
+## mc_rtc (Non-ROS) Usage
+
+This package can also be installed in a non-ROS workflow for `mc_rtc`:
+
+```bash
+cmake -S . -B build -DDISABLE_ROS=ON
+cmake --build build
+cmake --install build
+```
+
+This installs the description under `share/mc_rtc/revo2_description`, which allows `find_description_package(revo2_description)` to work from robot modules.
+
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
