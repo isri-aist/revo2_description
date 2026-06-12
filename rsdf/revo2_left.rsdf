@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<robot name="brainco_revo2_left_hand">
+<robot name="Revo2_LeftHand">
 
   <!-- ===================================================== -->
   <!-- PALM -->
