@@ -1,5 +1,4 @@
  <?xml version="1.0" ?>
-
 <robot name="Revo2_LeftHand">
 
   <!-- ===================================================== -->
@@ -21,20 +20,17 @@
   <!-- THUMB -->
   <!-- ===================================================== -->
 
-  <cylindrical_surface name="ThumbMetacarpal" link="left_thumb_metacarpal_link"
-                       radius="0.008" width="0.018">
+  <cylindrical_surface name="ThumbMetacarpal" link="left_thumb_metacarpal_link" radius="0.008" width="0.018">
     <origin xyz="0 -0.007 0" rpy="1.5708 0 0" />
     <material name="plastic" />
   </cylindrical_surface>
 
-  <cylindrical_surface name="ThumbProximal" link="left_thumb_proximal_link"
-                       radius="0.010" width="0.050">
+  <cylindrical_surface name="ThumbProximal" link="left_thumb_proximal_link" radius="0.010" width="0.050">
     <origin xyz="0 -0.026 0" rpy="1.5708 0 0" />
     <material name="plastic" />
   </cylindrical_surface>
 
-  <cylindrical_surface name="ThumbDistal" link="left_thumb_distal_link"
-                       radius="0.009" width="0.026">
+  <cylindrical_surface name="ThumbDistal" link="left_thumb_distal_link" radius="0.009" width="0.026">
     <origin xyz="0 -0.013 0" rpy="1.5708 0 0" />
     <material name="plastic" />
   </cylindrical_surface>
@@ -54,14 +50,12 @@
   <!-- INDEX -->
   <!-- ===================================================== -->
 
-  <cylindrical_surface name="IndexProximal" link="left_index_proximal_link"
-                       radius="0.009" width="0.032">
+  <cylindrical_surface name="IndexProximal" link="left_index_proximal_link" radius="0.009" width="0.032">
     <origin xyz="0 0 0.016" rpy="0 1.5708 0" />
     <material name="plastic" />
   </cylindrical_surface>
 
-  <cylindrical_surface name="IndexDistal" link="left_index_distal_link"
-                       radius="0.008" width="0.036">
+  <cylindrical_surface name="IndexDistal" link="left_index_distal_link" radius="0.008" width="0.036">
     <origin xyz="0.005 0 0.018" rpy="0 1.5708 0" />
     <material name="plastic" />
   </cylindrical_surface>
@@ -81,14 +75,12 @@
   <!-- MIDDLE -->
   <!-- ===================================================== -->
 
-  <cylindrical_surface name="MiddleProximal" link="left_middle_proximal_link"
-                       radius="0.009" width="0.037">
+  <cylindrical_surface name="MiddleProximal" link="left_middle_proximal_link" radius="0.009" width="0.037">
     <origin xyz="0 0 0.018" rpy="0 1.5708 0" />
     <material name="plastic" />
   </cylindrical_surface>
 
-  <cylindrical_surface name="MiddleDistal" link="left_middle_distal_link"
-                       radius="0.008" width="0.040">
+  <cylindrical_surface name="MiddleDistal" link="left_middle_distal_link" radius="0.008" width="0.040">
     <origin xyz="0 0 0.020" rpy="0 1.5708 0" />
     <material name="plastic" />
   </cylindrical_surface>
@@ -108,14 +100,12 @@
   <!-- RING -->
   <!-- ===================================================== -->
 
-  <cylindrical_surface name="RingProximal" link="left_ring_proximal_link"
-                       radius="0.0085" width="0.035">
+  <cylindrical_surface name="RingProximal" link="left_ring_proximal_link" radius="0.0085" width="0.035">
     <origin xyz="0 0 0.017" rpy="0 1.5708 0" />
     <material name="plastic" />
   </cylindrical_surface>
 
-  <cylindrical_surface name="RingDistal" link="left_ring_distal_link"
-                       radius="0.0075" width="0.038">
+  <cylindrical_surface name="RingDistal" link="left_ring_distal_link" radius="0.0075" width="0.038">
     <origin xyz="0 0 0.018" rpy="0 1.5708 0" />
     <material name="plastic" />
   </cylindrical_surface>
@@ -135,14 +125,12 @@
   <!-- PINKY -->
   <!-- ===================================================== -->
 
-  <cylindrical_surface name="PinkyProximal" link="left_pinky_proximal_link"
-                       radius="0.0075" width="0.029">
+  <cylindrical_surface name="PinkyProximal" link="left_pinky_proximal_link" radius="0.0075" width="0.029">
     <origin xyz="0 0 0.014" rpy="0 1.5708 0" />
     <material name="plastic" />
   </cylindrical_surface>
 
-  <cylindrical_surface name="PinkyDistal" link="left_pinky_distal_link"
-                       radius="0.0065" width="0.032">
+  <cylindrical_surface name="PinkyDistal" link="left_pinky_distal_link" radius="0.0065" width="0.032">
     <origin xyz="0 0 0.015" rpy="0 1.5708 0" />
     <material name="plastic" />
   </cylindrical_surface>
